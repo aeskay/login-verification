@@ -1,0 +1,33 @@
+body{
+	background-color: rgba(200, 200, 200, 0.6);
+}
+
+#signDiv{
+	margin-top: 10%;
+}
+
+#signBox{
+	border: 2px solid rgba(50, 50, 200, 0.6);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+form > input {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	border-radius: 5px;
+	height: 34px;
+	border-color: rgba(50, 50, 250, 0.5);
+}
+.invalid{
+	border-color: red;
+}
+
+.valid{
+	border-color: green;
+}
+
+.errorMes{
+	color: red;
+}

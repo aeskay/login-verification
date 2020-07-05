@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Verification Regex</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="verification.css">
+	<script type="text/javascript" src="verification.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-xs-0"></div>
+			<div class="col-md-4 col-xs-12 text-center" id="signDiv">
+				<h2 class="text-info" id="textInfo">Sign up below to receive our updates</h2>
+
+				<div id="signBox">
+					<form>
+				
+						<input type="text" name="fname"  id="fname" placeholder="Enter Your First Name">
+						<div id="fnameErr"></div>
+						
+						<input type="text" name="lname" id="lname" placeholder="Enter Your Last Name">
+						<div id="lnameErr"></div>
+						
+						<input type="text" name="email" id="email" placeholder="Enter Your Email" >
+						<div id="emailErr"></div>
+
+						<input type="text" name="phone" id="phone" placeholder="Enter Your Phone Number">
+						<div id="phoneErr"></div>
+						
+						<input type="text" name="password" id="password" placeholder="Enter Your Password">
+						<div id="passErr"></div>
+						
+						<input type="text" name="confpass" id="confpass" placeholder="Enter Password Again">
+						<div id="confErr"></div>
+						
+						<input type="button" name="submit" value="Submit" class="btn btn-block btn-info" onclick="validate()">					
+					</form>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-0"></div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="verification.js"></script>
+</body>
+
+</html>
